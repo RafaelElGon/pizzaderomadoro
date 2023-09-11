@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Pizza de Romadoro",
+    "description": "Pesquisa sobre uma extensão que aplica pomodoro com nudges",
+    "version": 1.0,
+    "icons": {
+        "48": "Images/pizza.ico"
+    },
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "pizza_romadoro"
+        }
+    },
+    
+    "content_scripts": [
+        {
+            "matches": [],
+            "js": []
+        }
+    ]
+}
